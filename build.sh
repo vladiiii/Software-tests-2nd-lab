@@ -31,3 +31,9 @@ gpg --fingerprint --with-colons ${GPG_KEY} |\
     xargs gpg --batch --delete-secret-keys
 
 gpg --batch --yes --delete-key ${GPG_KEY}
+
+
+
+
+
+
